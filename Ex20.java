@@ -61,10 +61,10 @@ public class Ex20 {
             }
         }
 
-        System.out.println("\nSalário - Abono");
+        System.out.println("\nSalário\t\tAbono");
         for (int i = 0; i < incomes.size(); i++) {
             countMinCollaborators = listingAllowances(incomes, allowances, i, countMinCollaborators);
-            System.out.printf("R$ %.2f - R$ %.2f\n", incomes.get(i), allowances.get(i));
+            System.out.printf("R$ %.2f\tR$ %.2f\n", incomes.get(i), allowances.get(i));
         }
 
         System.out.println("\nForam processados " + countCollaborators + " colaboradores");
