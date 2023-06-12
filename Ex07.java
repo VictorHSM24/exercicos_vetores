@@ -1,10 +1,12 @@
 package com.victor.avaliacao_3;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Ex07 {
 
     public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
         int[] array = new int[5];
 
@@ -26,5 +28,7 @@ public class Ex07 {
 
         System.out.println("\nSoma: " + sum);
         System.out.println("Multiplicação: " + mult);
+
+        sc.close();
     }
 }
