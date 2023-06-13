@@ -22,7 +22,7 @@ public class Ex15 {
 
         System.out.println("\na) Quantidade de valores lidos: " + grades.size());
 
-        System.out.print("b) Valores informados: ");
+        System.out.println("b) Valores informados: ");
         for (double g : grades) {
             System.out.print(g + "\n");
         }
@@ -40,7 +40,7 @@ public class Ex15 {
         double average = sum / grades.size();
 
         System.out.println("d) Soma dos valores: " + sum);
-        System.out.println("e) Média dos valores: " + average);
+        System.out.printf("e) Média dos valores: %.2f\n", average);
 
         int aboveAverage = 0;
         int belowAverage = 0;
